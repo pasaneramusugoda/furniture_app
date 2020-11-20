@@ -1,0 +1,81 @@
+name: furniture_app
+description: A new Flutter application.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^3.2.0
+  stacked: ^1.7.6
+  cupertino_icons: ^1.0.0
+  intl: ^0.16.1
+  provider: ^4.3.2+2
+  r_dart_library:
+    git:
+      url: https://github.com/YK-Unit/r_dart_library.git
+      ref: 0.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+  - packages/furniture_app/assets/images/ic_arrow_back.svg
+  - packages/furniture_app/assets/images/ic_bag.svg
+  - packages/furniture_app/assets/images/ic_bag_active.svg
+  - packages/furniture_app/assets/images/ic_bookmark.svg
+  - packages/furniture_app/assets/images/ic_cart.svg
+  - packages/furniture_app/assets/images/ic_home.svg
+  - packages/furniture_app/assets/images/ic_home_active.svg
+  - packages/furniture_app/assets/images/ic_menu.svg
+  - packages/furniture_app/assets/images/ic_minus.svg
+  - packages/furniture_app/assets/images/ic_more.svg
+  - packages/furniture_app/assets/images/ic_plus.svg
+  - packages/furniture_app/assets/images/ic_remove.svg
+  - packages/furniture_app/assets/images/ic_search.svg
+  - packages/furniture_app/assets/images/img_banner_1.png
+  - packages/furniture_app/assets/images/img_poduct_1.png
+  - packages/furniture_app/assets/images/img_product_2.png
+  - packages/furniture_app/assets/images/img_product_2_1.png
+  - packages/furniture_app/assets/images/img_product_2_2.png
+  - packages/furniture_app/assets/images/img_product_2_3.png
+  - packages/furniture_app/assets/images/img_product_2_4.png
+  - packages/furniture_app/assets/images/img_product_2_5.png
+  - packages/furniture_app/assets/images/img_product_3.png
+  - packages/furniture_app/assets/images/img_product_4.png
+  - packages/furniture_app/assets/images/img_user.png
+  fonts:
+  - family: playfair
+    fonts:
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-Black.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-BlackItalic.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-Bold.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-BoldItalic.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-ExtraBold.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-ExtraBoldItalic.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-Italic.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-Medium.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-MediumItalic.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-Regular.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-SemiBold.ttf
+    - asset: packages/furniture_app/assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.ttf
+  - family: spartan
+    fonts:
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Black.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Bold.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-ExtraBold.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-ExtraLight.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Light.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Medium.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Regular.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-SemiBold.ttf
+    - asset: packages/furniture_app/assets/fonts/spartan/Spartan-Thin.ttf
+flr:
+  core_version: 3.1.0
+  dartfmt_line_length: 80
+  assets:
+  - lib/assets/images
+  fonts:
+  - lib/assets/fonts

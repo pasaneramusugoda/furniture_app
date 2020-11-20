@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.238" height="25.866" viewBox="0 0 25.238 25.866">
+  <g id="ic_home_active" transform="translate(-87.5 -842)">
+    <path id="Path_16" data-name="Path 16" d="M-2420.107,839.974l9.691-6.4,9.537,5.538V852.49s.308,2.154-1.077,2.307-15.533,0-15.533,0-2.618,0-2.618-2.307Z" transform="translate(2513.588 13)" fill="#005dff" opacity="0.5"/>
+    <path id="ic_home" d="M4.5,10l9-7,9,7V21a2,2,0,0,1-2,2H6.5a2,2,0,0,1-2-2Z" transform="translate(84 840)" fill="none" stroke="#0c0c0c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
