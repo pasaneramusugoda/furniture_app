@@ -65,4 +65,39 @@ class AppStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.accent,
   );
+  static TextStyle productCartTitle = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+  static TextStyle productCartDes = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.black.withOpacity(0.3),
+  );
+  static TextStyle productCartPrice = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.accent,
+  );
+  static TextStyle productCartRemove = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.accent,
+    letterSpacing: 0.0,
+  );
+  static TextStyle cartText = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+  static TextStyle cartButton = TextStyle(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.white,
+  );
+  static TextStyle cartPrice = TextStyle(
+    fontSize: 30.sp,
+    color: AppColors.accent,
+  );
 }

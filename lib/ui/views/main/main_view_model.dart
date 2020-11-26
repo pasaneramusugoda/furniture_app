@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:furniture_app/ui/views/cart/cart_view.dart';
 import 'package:stacked/stacked.dart';
 
 class MainViewModel extends BaseViewModel {
@@ -27,4 +28,7 @@ class MainViewModel extends BaseViewModel {
     controller.animateToPage(index,
         duration: Duration(milliseconds: 300), curve: Curves.linearToEaseOut);
   }
+
+  onClickCart(BuildContext context) => Navigator.push(
+      context, MaterialPageRoute(builder: (context) => CartView()));
 }

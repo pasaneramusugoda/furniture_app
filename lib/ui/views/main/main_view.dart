@@ -38,6 +38,15 @@ class MainView extends ViewModelBuilderWidget<MainViewModel> {
               ),
             ),
             IconButton(
+              onPressed: () => model.onClickCart(context),
+              icon: Image(
+                width: 24.w,
+                height: 24.h,
+                color: Colors.black,
+                image: R.svg.ic_cart(width: 20.w, height: 20.h),
+              ),
+            ),
+            IconButton(
               onPressed: () {},
               iconSize: 42.0.w,
               icon: Container(
