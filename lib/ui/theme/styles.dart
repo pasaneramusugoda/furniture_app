@@ -39,4 +39,30 @@ class AppStyles {
     fontSize: 18.sp,
     fontWeight: FontWeight.w500,
   );
+  static TextStyle productDetailTitle = TextStyle(
+    fontFamily: R.fontFamily.playfair,
+    fontSize: 26.sp,
+    color: Colors.black,
+    height: 0.9,
+  );
+  static TextStyle productDetailDes = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w300,
+    color: Colors.black,
+  );
+  static TextStyle productDetailPrice = TextStyle(
+    fontSize: 24.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.accent,
+  );
+  static TextStyle productDetailOption = TextStyle(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+  static TextStyle productDetailQty = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.accent,
+  );
 }
